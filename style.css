@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+body{
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614344031_76-p-zadnii-fon-svetlii-87.jpg);
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+ul{
+    list-style-type: circle;
+    margin: 5px 5px;
+}
+
+.material-icons-outlined{
+    font-size: 30px;
+    margin: 5px 5px;
+}
+
+.material-icons {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+#CV{
+    background-color: black;
+    width: 1200px;
+    height: 1200px;
+    margin: 30px auto;
+    padding: 20px 10px;
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutMe {
+    background-color: rgb(248, 248, 248);
+    height: 1200px;
+    width: 527px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.photo {
+    width: 170px;
+    height: 220px;
+    margin: 10px 10px;
+    
+    align-content: flex-start;
+}
+
+.info{
+    width: 320px;
+    height: 220px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    flex-wrap: wrap;
+    display: flex;
+    align-content: flex-start;
+}
+
+.adres{
+    width: 310px;
+    height: 60px;
+    margin: 5px 5px;
+
+    font-size: 19px;
+    font-weight: 500px;
+    align-content: flex-start;
+}
+
+.contacts{
+    width: 310px;
+    height: 80px;
+    margin: 5px 5px;
+
+    font-size: 19px;
+    font-weight: 500px;
+    align-content: flex-start;
+}
+
+.birthday{
+    width: 310px;
+    height: 60px;
+    margin: 5px 5px;
+
+    font-size: 19px;
+    font-weight: 500px;
+    align-content: flex-start;
+}
+
+.goal {
+    width: 510px;
+    height: 90px;
+    margin: 10px 10px;
+
+    font-size: 20px;
+    font-weight: 500px;
+    align-content: flex-start;
+}
+
+.quality {
+    width: 510px;
+    height: 160px;
+    margin: 10px 10px;
+
+    font-size: 20px;
+    font-weight: 500px;
+    align-content: flex-start;
+}
+
+.program {
+    width: 510px;
+    height: 250px;
+    margin: 10px 10px;
+
+    font-size: 20px;
+    font-weight: 500px;
+    align-content: flex-start;
+}
+.html, .css, .js, .c, .english {
+    width: 510;
+    height: 50px;
+    margin: 3px 3px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    font-weight: 500px;
+    align-content: flex-start;
+    align-items: center;
+}
+.name{
+    width: 70px;
+    height: 35px;
+    margin: 5px 5px;
+
+    font-size: 20px;
+    align-items: center;
+
+}
+
+.rate{
+    width: 450;
+    height: 35px;
+    margin: 5px 5px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.language {
+    width: 510px;
+    height: 50px;
+    margin: 10px 10px;
+
+    font-size: 20px;
+    font-weight: 500px;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.myQuality {
+    background-color: white;
+    height: 1200px;
+    width: 667px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.myName{
+    height: 50px;
+    width: 660px;
+    margin: 10px 10px;
+
+    font-family: 500px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.social{
+    height: 140px;
+    width: 660px;
+    margin: 10px 10px;
+
+    font-family: 500px;
+    font-size: 20px;
+
+}
+
+.linkedIn, .inst{
+    width: 660px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-family: 500px;
+    font-size: 20px;
+}
+
+.university{
+    width: 660px;
+    height: 100px;
+    margin: 15px 10px;
+
+    font-family: 500px;
+    font-size: 20px;
+}
+
+.bseu {
+    width: 660px;
+    height: 90px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    font-family: 500px;
+    font-size: 20px;
+}
+
+.course{
+    width: 660px;
+    height: 330px;
+    margin: 15px 10px;
+
+    font-family: 500px;
+    font-size: 20px;
+}
+
+.ulc, .belhard, .udemy {
+    width: 660px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    font-family: 500px;
+    font-size: 20px;
+}
+
+.hobby {
+    width: 660px;
+    height: 170px;
+    margin: 15px 10px;
+
+    font-family: 500px;
+    font-size: 20px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+.hobbyCount {
+    width: 620px;
+    height: 150px;
+    margin: 15px 10px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.sport, .dev, .game {
+    width: 140px;
+    height: 70px;
+    margin: 10px 10px;
+    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.nameHobby {
+    margin-bottom: 10px;
+    text-align: center;
+
+    font-family: 500px;
+    font-size: 20px;
+}
